@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(3,46,31,1);
+    color:white !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    background: rgb(3,46,31);
+    background: linear-gradient(180deg, rgba(3,46,31,1) 0%, rgba(26,186,130,1) 0%, rgba(3,46,31,1) 100%);
+    margin-bottom: 15px;
+}
+.menuBtn{
+    text-align: center;
+    padding: 15px;
+}
+
+#title{
+    background: rgb(3,46,31);
+    background: radial-gradient(circle, rgba(3,46,31,1) 0%, rgba(26,186,130,1) 0%, rgba(3,46,31,1) 100%);border-color:#1aba82 !important;
+    padding: 15px;
+    padding-left: 40px;
+}
+
+.homeTitle{
+    height: 50vh;
+    text-align: center;
+}
+
+#titleImage{
+    height: 300px;
+}
+
+#game, #toGames{
+    background: rgb(3,46,31);
+    background: radial-gradient(circle, rgba(3,46,31,1) 0%, rgba(26,186,130,1) 0%, rgba(3,46,31,1) 100%);border-color:#1aba82 !important;
+}
+#toGames{
+    border: none;
+    height: 20vh;
+}
+#toGames > h3{
+    z-index: 1;
+    
+}
+#toGames > img{
+    position: absolute;
+    height: 100px;
+    margin-right: 20px;
+    z-index: 0;
+}
+
+#runs{
+    background: rgb(3,46,31);
+    background: linear-gradient(180deg, rgba(3,46,31,1) 0%, rgba(26,186,130,1) 50%, rgba(3,46,31,1) 100%);
+    border: none;
+    width: 33%;
+}
+
+#searchBtn{
+    background-color: #1aba82;
+    border-color: rgba(3,46,31,1);
+}
